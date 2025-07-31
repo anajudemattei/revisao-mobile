@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 5,
     },
     card: {
-        width: "60%", 
+        width: "80%", 
         backgroundColor: "#fff",
         borderRadius: 10,
         padding: 20,
@@ -118,13 +118,13 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.2,
         shadowRadius: 4,
         elevation: 5,
-        minHeight: 500, 
+        minHeight: 800, 
         alignItems: "center", 
         justifyContent: "center", 
     },
     title: {
-        fontSize: 28, // Aumentado o tamanho da fonte
-        fontWeight: "bold", // Aplicado negrito
+        fontSize: 28, 
+        fontWeight: "bold", 
         color: "#333",
         marginBottom: 20,
     },
