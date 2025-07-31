@@ -33,7 +33,7 @@ export default function Contato() {
 
     return (
         <View style={styles.container}>
-            <View style={styles.card}>
+             <View style={styles.card}>
                 <Text style={styles.title}>Teve algum problema ou quer deixar uma avaliação? Está no lugar certo!</Text>
                 <TextInput
                     style={styles.input}
@@ -78,16 +78,12 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         padding: 20,
-    },
-    title: {
-        fontSize: 24,
-        fontWeight: "bold",
         color: "#333",
         marginBottom: 20,
     },
     input: {
         width: "100%",
-        height: 40,
+        height: 45,
         borderColor: "#ccc",
         borderWidth: 1,
         borderRadius: 5,
@@ -113,15 +109,23 @@ const styles = StyleSheet.create({
         marginHorizontal: 5,
     },
     card: {
-        width: "90%", 
+        width: "60%", 
         backgroundColor: "#fff",
-        borderRadius: 10, 
+        borderRadius: 10,
         padding: 20,
         shadowColor: "#000",
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.2,
         shadowRadius: 4,
         elevation: 5,
-        minHeight: 400, 
+        minHeight: 500, 
+        alignItems: "center", 
+        justifyContent: "center", 
+    },
+    title: {
+        fontSize: 28, // Aumentado o tamanho da fonte
+        fontWeight: "bold", // Aplicado negrito
+        color: "#333",
+        marginBottom: 20,
     },
 });
