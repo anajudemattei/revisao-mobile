@@ -7,9 +7,7 @@ export default function WelcomeScreen({ navigation }) {
             <Text style={styles.title}>DELIVERY</Text>
             <Text style={styles.subtitle}>Peça já!</Text>
             <Image
-                source={{
-                    uri: "https://media.sitepen.com/blog-images/2022/03/Doing-More-with-Expo_-Using-Custom-Native-Code-%E2%80%93-Optimized.1.jpg",
-                }}
+                source={require("../images/logo.png")}
                 style={styles.image}
             />
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Drawer")}>
