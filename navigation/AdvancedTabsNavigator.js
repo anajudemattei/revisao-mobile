@@ -16,7 +16,7 @@ export default function IntermediateTabs() {
         headerShown: false,
         tabBarStyle: styles.tabBar,
         tabBarLabelStyle: styles.tabBarLabel,
-        tabBarActiveTintColor: "#1D4ED8",
+        tabBarActiveTintColor: "#faa250",
         tabBarInactiveTintColor: "#6B7280",
       }}
     >
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     bottom: 17,
     height: 70,
-    backgroundColor: "#D0D1D2",
+    backgroundColor: "#f5f5f5",
     borderRadius: 20,
     elevation: 5,
     shadowColor: "#000",
