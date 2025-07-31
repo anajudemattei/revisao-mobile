@@ -11,7 +11,7 @@ export default function WelcomeScreen({ navigation }) {
                 style={styles.image}
             />
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Drawer")}>
-                <Text style={styles.buttonText}>Bem-vindo 📱📶📳</Text>
+                <Text style={styles.buttonText}>Bem-vindo 🛍️🍟🍴</Text>
             </TouchableOpacity>
         </View>
     );
@@ -20,7 +20,7 @@ export default function WelcomeScreen({ navigation }) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#ffffff",
+        backgroundColor: "#FAF3E0",
         justifyContent: "center",
         alignItems: "center",
         padding: 30,
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
         borderRadius: 75,
         marginBottom: 30,
         borderWidth: 2,
-        borderColor: "#00b894",
+        borderColor: "#faa250",
         shadowColor: "#000",
         shadowOffset: { width: 0, height: 4 },
         shadowOpacity: 0.3,
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
         elevation: 6,
     },
     button: {
-        backgroundColor: "#61dafb",
+        backgroundColor: "#faa250",
         paddingVertical: 15,
         paddingHorizontal: 30,
         borderRadius: 10,
