@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 5,
     },
     card: {
-        width: "80%", 
+        width: "95%", 
         backgroundColor: "#fff",
         borderRadius: 10,
         padding: 20,
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.2,
         shadowRadius: 4,
         elevation: 5,
-        minHeight: 800, 
+        minHeight: 500, 
         alignItems: "center", 
         justifyContent: "center", 
     },
